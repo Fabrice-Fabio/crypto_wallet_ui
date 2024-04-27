@@ -12,7 +12,7 @@ class _ActionSectionState extends State<ActionSection> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.only(left: 20),
+      padding: EdgeInsets.only(left: 20, bottom: 20),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [

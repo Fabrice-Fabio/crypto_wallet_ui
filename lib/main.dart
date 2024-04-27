@@ -1,5 +1,6 @@
 import 'package:crypto_wallet_ui/actions_section.dart';
 import 'package:crypto_wallet_ui/amount_card.dart';
+import 'package:crypto_wallet_ui/movers_section.dart';
 import 'package:flutter/material.dart';
 import 'package:crypto_wallet_ui/constants/constants.dart' as constants;
 
@@ -63,12 +64,15 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: Container(
         color: constants.Colors.white,
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            AmountCard(),
-            ActionSection(),
-          ],
+        child: SingleChildScrollView(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              AmountCard(),
+              ActionSection(),
+              MoversSection()
+            ],
+          ),
         ),
       ),
     );
