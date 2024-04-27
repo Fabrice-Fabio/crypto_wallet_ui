@@ -31,7 +31,29 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("New App"),
+        centerTitle: false,
+        backgroundColor: constants.Colors.white,
+        toolbarHeight: 90,
+        title: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: [
+            Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text("Hello Fabio", style: TextStyle(color: constants.Colors.pink, fontSize: 24)),
+                Text("Welcome Back!", style: TextStyle(color: constants.Colors.black, fontSize: 32)),
+              ],
+            ),
+            Container(
+              padding: EdgeInsets.all(12),
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(5),
+                color: constants.Colors.lightGrey
+              ),
+              child: Image.asset('assets/icon_notifications.png'),
+            )
+          ],
+        ),
         elevation: 0,
       ),
       body: Center(

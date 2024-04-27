@@ -5,4 +5,5 @@ class Colors {
   static const darkBlue = const Color(0xff261863);
   static const black = const Color(0xff171532);
   static const lightGrey = const Color(0xffEFF0F7);
+  static const white = const Color(0xffffffff);
 }
