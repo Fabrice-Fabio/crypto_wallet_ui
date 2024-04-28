@@ -106,7 +106,7 @@ class _ActionSectionState extends State<ActionSection> {
                           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                           children: [
                             Text(
-                              "Receive",
+                              "Send",
                               style: TextStyle(
                                   color: constants.Colors.white,
                                   fontSize: 20,
