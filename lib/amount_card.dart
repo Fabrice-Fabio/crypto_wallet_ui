@@ -1,9 +1,30 @@
 import 'package:flutter/material.dart';
 import 'package:crypto_wallet_ui/constants/constants.dart' as constants;
+import 'package:lottie/lottie.dart';
 
 
-class AmountCard extends StatelessWidget {
+class AmountCard extends StatefulWidget {
   const AmountCard({Key? key}) : super(key: key);
+
+  @override
+  State<AmountCard> createState() => _AmountCardState();
+}
+
+class _AmountCardState extends State<AmountCard> with TickerProviderStateMixin {
+  late final AnimationController _controller;
+
+  @override
+  void initState() {
+    _controller = AnimationController(vsync: this);
+    super.initState();
+  }
+
+  @override
+  void dispose() {
+    _controller.dispose();
+    super.dispose();
+  }
+
 
   @override
   Widget build(BuildContext context) {
@@ -58,9 +79,20 @@ class AmountCard extends StatelessWidget {
             ),
           ),
           Positioned(
-            bottom: 20,
-            right: 6,
-            child: Image.asset("assets/coin_stack.png"),
+            bottom: -5,
+            right: -70,
+            child: Container(
+              child: Lottie.asset(
+                'assets/coin_stack.json',
+                width: 250,
+                height: 150,
+                onLoaded: (composition){
+                  _controller..duration = composition.duration
+                      ..forward();
+                }
+              ),
+            ),
+            //child: Image.asset("assets/coin_stack.png"),
           ),
           Positioned(
             bottom: 12,
