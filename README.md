@@ -8,9 +8,14 @@ Project inspired by: https://www.figma.com/community/file/1139401010100518801/cr
 
 Linkedin : https://www.linkedin.com/in/fabrice-sumsa/
 
+Music : Didi B, Widgunz - Giga de Cali
 
 
 
 
-https://github.com/Fabrice-Fabio/crypto_wallet_ui/assets/35635121/1ed37919-9797-4366-96a9-cf281ee0908f
+https://github.com/Fabrice-Fabio/crypto_wallet_ui/assets/35635121/9a12f920-6ad9-4691-bccf-9a82b18dca60
+
+
+
+
 
