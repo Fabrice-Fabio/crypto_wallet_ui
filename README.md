@@ -1,16 +1,16 @@
 # crypto_wallet_ui
 
-A new Flutter project.
+This project is just a design project for a crypto wallet app made in Flutter
 
-## Getting Started
+Full video code : https://www.youtube.com/@flutterguys/videos
 
-This project is a starting point for a Flutter application.
+Project inspired by: https://www.figma.com/community/file/1139401010100518801/crypto-wallet-app-community
 
-A few resources to get you started if this is your first Flutter project:
+Linkedin : https://www.linkedin.com/in/fabrice-sumsa/
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+
+https://github.com/Fabrice-Fabio/crypto_wallet_ui/assets/35635121/1ed37919-9797-4366-96a9-cf281ee0908f
+
